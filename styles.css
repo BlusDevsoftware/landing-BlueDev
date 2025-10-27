@@ -542,6 +542,106 @@ body {
 }
 
 /* =========================
+   Sistemas Section
+   ========================= */
+.sistemas {
+    padding: 5rem 0;
+    background: white;
+}
+
+.sistemas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sistema-card {
+    background: var(--gray-light);
+    border-radius: 20px;
+    padding: 2.5rem;
+    transition: var(--transition);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.sistema-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 102, 204, 0.2);
+}
+
+.sistema-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.sistema-icon {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, var(--primary-blue), var(--dark-blue));
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    box-shadow: 0 8px 20px rgba(0, 102, 204, 0.3);
+}
+
+.sistema-icon-orange {
+    background: linear-gradient(135deg, var(--secondary-orange), var(--dark-orange));
+    box-shadow: 0 8px 20px rgba(255, 102, 0, 0.3);
+}
+
+.sistema-card h3 {
+    color: var(--gray-dark);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.sistema-description {
+    color: var(--gray-text);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+}
+
+.sistema-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.sistema-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.sistema-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.btn-orange {
+    background: var(--secondary-orange);
+    color: white;
+    border: none;
+}
+
+.btn-orange:hover {
+    background: var(--dark-orange);
+    transform: translateY(-3px);
+}
+
+/* =========================
    Tecnologias Section
    ========================= */
 .tecnologias {
@@ -862,6 +962,19 @@ body {
     
     .servicos-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .sistemas-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .sistema-images {
+        grid-template-columns: 1fr;
+    }
+    
+    .sistema-img {
+        height: 200px;
     }
     
     .tech-grid {

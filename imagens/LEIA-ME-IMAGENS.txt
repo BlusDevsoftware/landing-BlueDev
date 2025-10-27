@@ -1,0 +1,29 @@
+IMAGENS NECESSÁRIAS PARA OS SISTEMAS
+====================================
+
+Adicione as seguintes imagens na pasta "imagens":
+
+PARA O E-GERENTE:
+-----------------
+1. imagens/e-gerente-1.jpg
+2. imagens/e-gerente-2.jpg  
+3. imagens/e-gerente-3.jpg
+
+PARA O PAROQUEIAON:
+-------------------
+1. imagens/paroqueia-1.jpg
+2. imagens/paroqueia-2.jpg
+3. imagens/paroqueia-3.jpg
+
+TAMANHOS RECOMENDADOS:
+- Largura mínima: 800px
+- Altura mínima: 400px
+- Formato: JPG ou PNG
+- Peso: máximo 500KB cada
+
+CONTEÚDO DAS IMAGENS:
+- e-gerente: Screenshots do sistema de gestão (dashboards, relatórios, etc)
+- paroqueia: Screenshots do sistema de igrejas (membros, eventos, etc)
+
+DICA: Use imagens de alta qualidade que mostrem bem as funcionalidades dos sistemas!
+
