@@ -284,12 +284,14 @@ body {
 
 .scroll-indicator {
     position: absolute;
-    bottom: 30px;
+    bottom: clamp(16px, env(safe-area-inset-bottom) + 16px, 40px);
     left: 50%;
     transform: translateX(-50%);
     animation: bounce 2s infinite;
     color: white;
-    font-size: 2rem;
+    font-size: 2.2rem;
+    z-index: 3;
+    opacity: 0.95;
 }
 
 @keyframes bounce {
@@ -955,6 +957,10 @@ body {
     
     .hero-title {
         font-size: 2rem;
+    }
+    .scroll-indicator {
+        bottom: clamp(20px, env(safe-area-inset-bottom) + 20px, 48px);
+        font-size: 2.4rem;
     }
     
     .hero-subtitle {
